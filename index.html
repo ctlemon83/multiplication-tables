@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multiplication Flash Cards</title>
+</head>
+<body>
+    <div id="flashCard">
+        <div id="inside-flashcard">
+            <div id="validation">
+                <p id="corIncor"></p>
+            </div>
+            <div id="line1" class="card-spacing">
+                <h1 id="firstFactor" class="spacing"></h1>
+            </div>
+            <div id="line2" class="card-spacing">
+                <h1 id="operator" class="spacing">x</h1>
+                <h1 id="secFactor" class="spacing"></h1>
+            </div>
+            <div id="line3">
+                <input id="answer" type="text" maxlength="2" autofocus>
+            </div>
+            <div id="line4">
+                <button id="submit" type="submit" onclick="multiply();">Check Answer</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#flashCard {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+#inside-flashcard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#line2 {
+    display: flex;
+    border-bottom: black solid;
+}
+
+.spacing {
+    margin: 0 25px 0 25px;
+    font-size: 10rem;
+}
+
+#line3 {
+    align-self: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#answer {
+    text-align: center;
+    font-size: 10rem;
+    width: 200px;
+}
+
+#line4 {
+    align-self: center;
+}
+
+button {
+    font-size: 1.5em;
+    margin: -2px;
+}
+
+#validation {
+    align-self: center;
+    font-size: 1.75em;
+    width: 175px;
+    height: 20px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+#corIncor {
+    margin: 0;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
